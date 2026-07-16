@@ -4,6 +4,35 @@
 @import url("skill.css");
 @import url("journey.css");
 @import url("ach.css");
+
+:root{
+
+    --bg-primary:#0a0a0a;
+    --bg-card:#141414;
+
+    --text-primary:#ffffff;
+    --text-secondary:#b3b3b3;
+
+    --border:rgba(255,255,255,.08);
+
+    --accent:#3b82f6;
+
+}
+
+body.light{
+
+    --bg-primary:#f7f7f7;
+    --bg-card:#ffffff;
+
+    --text-primary:#111111;
+    --text-secondary:#555555;
+
+    --border:rgba(0,0,0,.08);
+
+    --accent:#2563eb;
+
+}
+
 *{
     margin:0;
     padding:0;
